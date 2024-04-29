@@ -1,14 +1,14 @@
-import './globals.css';
-import React from 'react';
+import './globals.css'
+import React from 'react'
 
-export default function RootLayout({
-    children,
+export default function RootLayout ({
+  children
 }: {
     children: React.ReactNode
 }) {
-    return (
+  return (
         <html lang="en">
             <body>{children}</body>
         </html>
-    )
+  )
 }
